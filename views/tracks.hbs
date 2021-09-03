@@ -1,0 +1,15 @@
+<ol>
+{{#each allTracks}}
+
+<li>{{name}}</li>
+
+<figure>
+    <figcaption>Listen:</figcaption>
+    <audio
+        controls
+        src="{{preview_url}}">
+    </audio>
+</figure>
+
+{{/each}}
+</ol>
